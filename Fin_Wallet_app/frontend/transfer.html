@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Transfer Money - Wallet App</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="navbar">
+        <h1>Transfer Money</h1>
+        <button id="backBtn">Back to Dashboard</button>
+    </div>
+    <div class="container">
+        <form id="transferForm">
+            <input type="text" id="recipient" placeholder="Recipient Username" required>
+            <input type="number" id="amount" placeholder="Amount" required min="1">
+            <button type="submit">Transfer</button>
+        </form>
+        <div id="message"></div>
+    </div>
+    <script src="js/transfer.js"></script>
+</body>
+</html>

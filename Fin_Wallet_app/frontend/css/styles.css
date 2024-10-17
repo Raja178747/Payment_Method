@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 400px;
+    margin: 100px auto;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+
+h2, h3, h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background: #ff7e5f;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #feb47b;
+}
+
+a {
+    color: #ff7e5f;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#message {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.navbar {
+    background: #333;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h1 {
+    margin: 0;
+    color: #ff7e5f;
+}
+
+.navbar button {
+    padding: 10px 20px;
+    background: #ff7e5f;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.navbar button:hover {
+    background: #feb47b;
+}
+
+.balance-section, .transactions-section {
+    margin-bottom: 30px;
+}
+
+.transactions-section table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.transactions-section th, .transactions-section td {
+    padding: 10px;
+    border-bottom: 1px solid #fff;
+    text-align: left;
+}
+
+.transactions-section th {
+    background: #ff7e5f;
+}
+
+.transactions-section tr:hover {
+    background: rgba(255, 126, 95, 0.2);
+}
